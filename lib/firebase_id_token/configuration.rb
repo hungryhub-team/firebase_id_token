@@ -7,7 +7,7 @@ module FirebaseIdToken
     attr_accessor :redis, :project_ids, :certificates
 
     def initialize
-      @redis = Redis.new
+      # @redis = Redis.new
       @project_ids = []
       @certificates = FirebaseIdToken::Certificates
     end
